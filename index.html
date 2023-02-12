@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="Converts temperatures from Celsius to Fahrenheit, from Fahrenheit to Celsius, and from Kelvin to Celsius.">
+    	<meta name="keywords" content="temperature, fahrenheit, celsius, kelvin">
+
+		<title>Three-Level Temperature Converter</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div class="startUp">
+			<h1 id="convTitle">Three-Level Temperature Converter</h1>
+			<audio id="annie">
+				<source src="https://dl.sndup.net/tqxp/Disney%20-%20Annie%20-%20Tomorrow.mp3" type="audio/mpeg">
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-4">
+					<div class="card">
+						<div class="card-header">
+							<h2>Celsius</h2>
+						</div>
+						<div class="card-body">
+							<input type="text" id="celsius" placeholder="Enter Celsius">
+							<button id="convertF">Convert</button>
+							<h4 id="convertedF"></h4>
+						</div>
+					</div>
+				</div>
+				<div class="col-4">
+					<div class="card">
+						<div class="card-header">
+							<h2>Fahrenheit</h2>
+						</div>
+						<div class="card-body">
+							<input type="text" id="fahrenheit" placeholder="Enter Fahrenheit">
+							<button id="convertC">Convert</button>
+							<h4 id="convertedC"></h4>
+						</div>
+					</div>
+				</div>
+				<div class="col-4">
+					<div class="card">
+						<div class="card-header">
+							<h2>Kelvin</h2>
+						</div>
+						<div class="card-body">
+							<input type="text" id="kelvin" placeholder="Enter Kelvin">
+							<button id="convertK">Convert</button>
+							<h4 id="convertedK"></h4>
+						</div>
+					</div>
+				</div>
+			</div>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
